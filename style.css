@@ -7,7 +7,9 @@ body{
 .section-1{
     width: 1440px;
     height: 715px;
-    color: #FFFBF0;
+    background-color: #FFFBF0;
+
+
 
 }
 /* ________________nav-part__________________  */
@@ -41,13 +43,15 @@ ul li a{
 }
 /* ________________nav-part__________________  */
 .details-with-thumbnail{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .only-title{
     width: 416px;
     height: 192px;
     margin-left: 135px;
-    margin-top: 180px;
+    margin-top: 101px;
 }
 .title-1{
     color: #FABE4C;
@@ -73,4 +77,30 @@ ul li a{
     height: 52px;
     margin-left: 139px;
     margin-top: 4px;
+    margin-bottom: 40px;
+}
+.check{
+    background-color: aqua;
+    border: none;
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    margin-left: 135px;
+    margin-bottom: 178.29px;
+}
+.create-button{
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+.thumbnail{
+    width: 549px;
+    height: 559px;
+    margin-right: 185px;
+    margin-top: 90px;
+    margin-bottom: 178.29px;
 }
