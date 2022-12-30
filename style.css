@@ -113,10 +113,11 @@ ul li a{
 }
 /* _________________section-1 end___________________  */
 
-/* section-2 start  */
-.section-2{
+/* _________________section-2 & 3 start___________________  */
 
-}
+/* .section-2{
+
+} */
 .top-title{
     text-transform: uppercase;
     width: 225px;
@@ -251,3 +252,68 @@ ul li a{
     color: white;
     text-transform: uppercase;
 }
+/* _________________section-2 & 3 end___________________  */
+
+/* _________________section-4 start___________________  */
+
+.section-4{
+    display: flex;
+}
+.all-offer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 16px;
+    margin-top: 130px;
+    margin-left: 135px;
+    margin-right: 83px;
+    margin-bottom: 200px;
+}
+.fit-container{
+    width: 489px;
+    height: 135px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.perfect-fit{
+    display: flex;
+}
+.fit-image>img{
+    width: 78px;
+    height: 82px;
+    margin-left: 26px;
+    margin-right: 36px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+.fit-title{
+    width: 206px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+.fit-info{
+    width: 276px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    margin-top: 14px;
+    margin-right: 72px;
+    margin-bottom: 21px;
+}
+
+.marketing-logo img{
+    Width: 599px;
+    Height: 354.07px;
+    margin-top: 169px;
+    margin-right: 134px;
+    margin-bottom: 243px;
+}
+/* _________________section-4 end___________________  */
